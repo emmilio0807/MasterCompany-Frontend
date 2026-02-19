@@ -4,11 +4,11 @@
 }
 
 h2 {
-  color: #1565c0;
+  color: #1a237e;
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 24px;
-  border-left: 4px solid #1565c0;
+  border-left: 4px solid #1a237e;
   padding-left: 12px;
 }
 
@@ -30,7 +30,7 @@ table {
 
 /* Encabezados */
 th.mat-header-cell {
-  background-color: #1565c0;
+  background-color: #1a237e;
   color: white !important;
   font-size: 13px;
   font-weight: 600;
@@ -42,14 +42,14 @@ th.mat-header-cell {
 /* Filas */
 td.mat-cell {
   padding: 14px 16px !important;
-  color: #1a1a1a;
+  color: #333;
   font-size: 14px;
-  border-bottom: 1px solid #d0d0d0;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 /* Filas alternas */
 tr.mat-row:nth-child(even) {
-  background-color: #f0f4f8;
+  background-color: #ffffff;
 }
 
 tr.mat-row:nth-child(odd) {
@@ -63,21 +63,6 @@ tr.mat-row {
 }
 
 tr.mat-row:hover {
-  background-color: #c5e1ff;
+  background-color: #f5f5f5;
   transform: scale(1.001);
-  box-shadow: 0 2px 8px rgba(21, 101, 192, 0.15);
-}
-
-/* Paginador */
-mat-paginator {
-  background-color: #f0f4f8;
-  border-top: 1px solid #d0d0d0;
-  border-radius: 0 0 8px 8px;
-}
-
-/* Sin resultados */
-.mat-row td.mat-cell {
-  text-align: center;
-  color: #888;
-  font-style: italic;
-}
+  box-shadow: 0 2px 8px rgba(26, 3
