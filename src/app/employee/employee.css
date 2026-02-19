@@ -1,0 +1,83 @@
+.container {
+  padding: 32px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  color: #1a237e;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  border-left: 4px solid #1a237e;
+  padding-left: 12px;
+}
+
+.filter-field {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.table-container {
+  overflow-x: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Encabezados */
+th.mat-header-cell {
+  background-color: #1a237e;
+  color: white !important;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 16px !important;
+}
+
+/* Filas */
+td.mat-cell {
+  padding: 14px 16px !important;
+  color: #333;
+  font-size: 14px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Filas alternas */
+tr.mat-row:nth-child(even) {
+  background-color: #f5f7ff;
+}
+
+tr.mat-row:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+/* Hover */
+tr.mat-row {
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  cursor: pointer;
+}
+
+tr.mat-row:hover {
+  background-color: #e8eaf6;
+  transform: scale(1.001);
+  box-shadow: 0 2px 8px rgba(26, 35, 126, 0.1);
+}
+
+/* Paginador */
+mat-paginator {
+  background-color: #f5f7ff;
+  border-top: 1px solid #e0e0e0;
+  border-radius: 0 0 8px 8px;
+}
+
+/* Sin resultados */
+.mat-row td.mat-cell {
+  text-align: center;
+  color: #888;
+  font-style: italic;
+}
